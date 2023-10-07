@@ -49,10 +49,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_CAMERA_PATH)/configs/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
 
-# Sepolicy
-BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_CAMERA_PATH)/sepolicy/vendor
-SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(DEVICE_CAMERA_PATH)/sepolicy/private
-SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += $(DEVICE_CAMERA_PATH)/sepolicy/public
-
 # Vendor Proprietary
 $(call inherit-product, vendor/xiaomi/sm6225-common-miuicamera/sm6225-common-miuicamera-vendor.mk)
