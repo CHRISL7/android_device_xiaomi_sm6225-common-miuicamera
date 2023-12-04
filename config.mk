@@ -49,5 +49,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_CAMERA_PATH)/configs/public.libraries-xiaomi.txt:$(TARGET_COPY_OUT_SYSTEM)/etc/public.libraries-xiaomi.txt
 
+# Shims
+PRODUCT_PACKAGES += \
+    libgui_shim_miuicamera
+
 # Vendor Proprietary
 $(call inherit-product, vendor/xiaomi/sm6225-common-miuicamera/sm6225-common-miuicamera-vendor.mk)

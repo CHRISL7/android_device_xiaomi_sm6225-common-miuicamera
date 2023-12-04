@@ -52,11 +52,11 @@ fi
 
 function blob_fixup() {
     case "${1}" in
-        lib64/libgui-xiaomi.so)
-            patchelf --set-soname libgui-xiaomi.so "${2}"
-            ;;
         lib64/libcamera_algoup_jni.xiaomi.so|lib64/libcamera_mianode_jni.xiaomi.so)
-            patchelf --replace-needed libgui.so libgui-xiaomi.so "${2}"
+            "${PATCHELF}" --add-needed "libgui_shim_miuicamera.so" "${2}"
+            ;;
+        lib64/libmicampostproc_client.so)
+            "${PATCHELF}" --remove-needed "libhidltransport.so" "${2}"
             ;;
     esac
 }
