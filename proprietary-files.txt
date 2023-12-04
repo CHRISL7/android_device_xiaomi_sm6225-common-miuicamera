@@ -53,12 +53,9 @@ vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so|cd52e318ded1951c029a5857ec848af
 lib64/android.hardware.camera.common@1.0.so|587fd9ac5502844a9904cdf39583ba9580578a3e
 lib64/libSNPE.so|f3ffab1527763de07abd6ea4889673574b3b1a48
 lib64/libarcsoft_single_chart_calibration.so|cb37de29857fe1703530de6e5a54038a9620ddcd
-lib64/libmicampostproc_client.so|8fbaa1c675fcc7b2271afe14865bada804541ef9
-lib64/libcamera_algoup_jni.xiaomi.so|09f384b71edd7c58160d9e075fd3895beff2596e
-lib64/libcamera_mianode_jni.xiaomi.so|83a03de7d80c97c1a8a1861e605f4a08a97cd755
+lib64/libmicampostproc_client.so|2f512222ca8d2c70a61eef5f9c76ab76afb26a2d
 lib64/libdoc_photo.so|e09aa3436d3fe1a6e4b37d9a922eae0a78d1760e
 lib64/libdoc_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
-lib64/libgui-xiaomi.so|3d1f1fc793fdfaadeca1f6912515ed5b8252410e
 lib64/libhidltransport.so|f5b73785c146d4ea206caf331f49b60a0f19800f
 lib64/libmotion_photo.so|1d58550ec98df90d585af82ede89db4d4504decd
 lib64/libmotion_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
@@ -70,6 +67,10 @@ priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_skel.so|8d08e8403fcb2b654ab34fc69859f1
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so|7b2aa3976134b2acef655fc2b93e2bf1ac3434ff
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so|d724f312d2f9519393c967b64f0a41d61d284e4a
 priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so|4659105d1ca963ddfab1560e21009107b8cc520d
+
+# libcamera - from SPES MIUI
+-lib64/libcamera_algoup_jni.xiaomi.so|9ad626da38dd0aada62019e9af5c1db161f78eea
+-lib64/libcamera_mianode_jni.xiaomi.so|caecc4f8ee3da405c266b5f566bd3be883b142d8
 
 # photo
 priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
