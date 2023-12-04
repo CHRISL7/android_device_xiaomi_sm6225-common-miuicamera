@@ -18,6 +18,8 @@ PRODUCT_SOONG_NAMESPACES += \
 
 DEVICE_CAMERA_PATH := device/xiaomi/sm6225-common-miuicamera
 TARGET_USES_MIUI_CAMERA := true 
+MALLOC_SVELTE := true
+MALLOC_SVELTE_FOR_LIBC32 := true
 
 # Camera property
 PRODUCT_PRODUCT_PROPERTIES += \
