@@ -1,4 +1,4 @@
-# All MIUI blobs below are extracted from surya V14.0.1.0.SJGMIXM
+# All MIUI blobs below are extracted from spes V14.0.3.0.TGCMIXM
 
 # Camera configs - From MIUI
 vendor/etc/camera/102_SummerDay.png|e27c1ad14c763cbc0159aa5a0357b934cbc16ced
@@ -18,72 +18,35 @@ vendor/etc/camera/113_BlackIce.png|00bb1b9b499aca960475b79414b5a076324c8b46
 system/etc/permissions/vendor.xiaomi.hardware.misys-V1.0-java-permission.xml|b0e963547c0e5f133f3505a8100a1a07ca9cbc13
 system/etc/permissions/vendor.xiaomi.hardware.misys-V2.0-java-permission.xml|db27e4291ce101c2f4cc34e5d58f8a74f7df5003
 system/etc/permissions/vendor.xiaomi.hardware.misys.V3_0-permission.xml|9fe4c93229d3a6d2fbec313159ba3c0d0b8b69be
-system/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar|0f07da3ce7b035e727996e79a9819dec57af3e1e
-system/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar|eb9b904c0fdb0ebf06b9b6cbee9560ab23341d08
-system/framework/vendor.xiaomi.hardware.misys.V3_0.jar|9ebb257c278d3481881e85b65d2b090237e29462
-system/lib64/libmisys_jni.so|60ceb922cb750c718ea64ab7c1cd4b89a245c7c8
-system/lib64/vendor.xiaomi.hardware.misys@1.0.so|eccefde6be179f51a21cdb604c83186a508a1b9f
-system/lib64/vendor.xiaomi.hardware.misys@2.0.so|e6d3ad73d5fade6dd9d69971ef4de93d2d1da0a8
-system/lib64/vendor.xiaomi.hardware.misys@3.0.so|1c3a59312d4a846c6851e036b37be710d32fb7c5
-system/lib64/vendor.xiaomi.hardware.misys@4.0.so|da2f105c64a0f0ecae9e80928e871ac123c42ea7
+system/framework/vendor.xiaomi.hardware.misys-V1.0-java.jar|ccd05159397c1c68f35430e81767497e9cd8440b
+system/framework/vendor.xiaomi.hardware.misys-V2.0-java.jar|d50530d1b80a04669b43063964a208b8b13767d6
+system/framework/vendor.xiaomi.hardware.misys.V3_0.jar|56389089b47509f97d70dd1a3f7a64b919eba96f
+system/lib64/libmisys_jni.xiaomi.so|1595e4987fb9b85383b33d58c0d70b9cb2523204
+system/lib64/vendor.xiaomi.hardware.misys@1.0.so|6ca1965b5de2e6abeba73f6f14d41f0bc7ef5de3
+system/lib64/vendor.xiaomi.hardware.misys@2.0.so|e444bf5636b5f01555d9a9a399484aa651f61e22
+system/lib64/vendor.xiaomi.hardware.misys@3.0.so|136c9e07e9cff9fc99b4461b78ebd21253c244b6
+system/lib64/vendor.xiaomi.hardware.misys@4.0.so|92d584acb0b49c4639eb446226ed6b86774a605f
 vendor/bin/hw/vendor.xiaomi.hardware.misys@1.0-service|3565360a8df875c71376d4bf354602053aaf8833
 vendor/bin/hw/vendor.xiaomi.hardware.misys@2.0-service|aeb7e699618ea098eedd8850774f73b673f17a32
 vendor/bin/hw/vendor.xiaomi.hardware.misys@3.0-service|7a084be3c42aa47bd3dfee1c1f6ec61498bfa6e1
-vendor/bin/hw/vendor.xiaomi.hardware.misys@4.0-service|b1155dffb7077e549bc4f8c5a054f7100bfb1e1b
 vendor/etc/init/vendor.xiaomi.hardware.misys@1.0-service.rc|99d376dd6f9af62f9c065e68f6873989c680aa3f
 vendor/etc/init/vendor.xiaomi.hardware.misys@2.0-service.rc|e234eba5115da4fda9e82d39634a95ddacf0c0f2
 vendor/etc/init/vendor.xiaomi.hardware.misys@3.0-service.rc|b2097e5ba297fb88d7133e4a33ba7ced416d70c0
-vendor/etc/init/vendor.xiaomi.hardware.misys@4.0-service.rc|28ab992f19bd554b685c35ad6cb3f3facece3c6a
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml|07adcadc52bd130b65b20803c26c6e59c4b9d49b
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml|beb350e77a9b9fe032cce12d93d293a24d02e256
 -vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@3.0.xml|2071a39b08a28a1038b34df9dca171271cbd968c
--vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@4.0.xml|554817231d8d2db5bb5a6793aa46cefd51e89c88
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@1.0-impl.so|fb95edae43ff08f926456d26fb630008826f2fc0
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@2.0-impl.so|f19248829c7b5e70545af89261ec66d728809f85
 vendor/lib64/hw/vendor.xiaomi.hardware.misys@3.0-impl.so|40e5d6449a5bf7600287c185ad2f9da90d936cea
-vendor/lib64/hw/vendor.xiaomi.hardware.misys@4.0-impl.so|00248abf717c6a3d1ca08eebe49dae3c9ebfdac0
 vendor/lib64/libcheckpid.so|a6d25e6454cee95c694e563ac5548a9b5981a772
 vendor/lib64/liblogwrap_vendor.so|f3e94b0a7116e20ef1fcbaae3339139251076757
 vendor/lib64/vendor.xiaomi.hardware.misys@1.0.so|d20ab76005d50db110a78c1d892e562ffe5395ba
 vendor/lib64/vendor.xiaomi.hardware.misys@2.0.so|55326adae329775eb8147b8c476d12734f12ff21
 vendor/lib64/vendor.xiaomi.hardware.misys@3.0.so|dade9711628a2c670901a5f5903af80a44e53663
-vendor/lib64/vendor.xiaomi.hardware.misys@4.0.so|cd52e318ded1951c029a5857ec848afb5266ea38
 
-# System - from CR/PA repository
-lib64/android.hardware.camera.common@1.0.so|587fd9ac5502844a9904cdf39583ba9580578a3e
-lib64/libSNPE.so|f3ffab1527763de07abd6ea4889673574b3b1a48
-lib64/libarcsoft_single_chart_calibration.so|cb37de29857fe1703530de6e5a54038a9620ddcd
-lib64/libmicampostproc_client.so|2f512222ca8d2c70a61eef5f9c76ab76afb26a2d
-lib64/libcamera_algoup_jni.xiaomi.so|147ed2822eb9e8b73ff92073928baaede6d9c5ed
-lib64/libcamera_mianode_jni.xiaomi.so|0d5501d169c30a51a4a2588c42e8868ea11a8b2d
-lib64/libdoc_photo.so|e09aa3436d3fe1a6e4b37d9a922eae0a78d1760e
-lib64/libdoc_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
-lib64/libhidltransport.so|f5b73785c146d4ea206caf331f49b60a0f19800f
-lib64/libmotion_photo.so|1d58550ec98df90d585af82ede89db4d4504decd
-lib64/libmotion_photo_c++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
-lib64/libmotion_photo_mace.so|ab99cb01df8996ae250f718113bc97031f603a6f
-lib64/libsymphony-cpu.so|521e63af19b3fd51b12bb48f95b3f58a90068cc2
-lib64/vendor.xiaomi.hardware.campostproc@1.0.so|203cdbc15cb05cd9b8ee05ff70a36e362b4c26ea
-priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|0bf77690b95d3161535587624bd920f41d320d18
-priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_skel.so|8d08e8403fcb2b654ab34fc69859f126ff28214c
-priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_domains_v2.so|7b2aa3976134b2acef655fc2b93e2bf1ac3434ff
-priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v65_domains_v2_skel.so|d724f312d2f9519393c967b64f0a41d61d284e4a
-priv-app/MiuiCamera/lib/arm64/libsnpe_dsp_v66_domains_v2_skel.so|4659105d1ca963ddfab1560e21009107b8cc520d
-
-# photo
-priv-app/MiuiExtraPhoto/MiuiExtraPhoto.apk;PRESIGNED
-priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo.so
-priv-app/MiuiExtraPhoto/lib/arm64/libdoc_photo_c++_shared.so
-priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_dualcam_refocus.so
-priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting.so
-priv-app/MiuiExtraPhoto/lib/arm64/libgallery_arcsoft_portrait_lighting_c.so
-priv-app/MiuiExtraPhoto/lib/arm64/libgallery_mpbase.so
-priv-app/MiuiExtraPhoto/lib/arm64/libmibokeh_gallery.so
-priv-app/MiuiExtraPhoto/lib/arm64/libmisr.so
-priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo.so
-priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_c++_shared.so
-priv-app/MiuiExtraPhoto/lib/arm64/libmotion_photo_mace.so
-priv-app/MiuiExtraPhoto/lib/arm64/librefocus.so
-priv-app/MiuiExtraPhoto/lib/arm64/librefocus_mibokeh.so
-priv-app/MiuiExtraPhoto/lib/arm64/libselection.so
-
+# System Camera - from MIUI
+system/lib64/libmicampostproc_client.so|f4dab2d907ec49de87aefef30270d8c789125358
+system/lib64/libcamera_algoup_jni.xiaomi.so|02d8b60d001e8dd531991454f7a940ec0016a8e0
+system/lib64/libcamera_mianode_jni.xiaomi.so|53fe439b710d312626f3d44a8b32eb276678c0d5
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so|203cdbc15cb05cd9b8ee05ff70a36e362b4c26ea
+product/priv-app/MiuiCamera/MiuiCamera.apk:system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,Aperture,GoogleCameraGo,Camera2;PRESIGNED|de8c82728d081774a12ab8613be5f98ece7e8e63
